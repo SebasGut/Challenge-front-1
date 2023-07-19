@@ -2,7 +2,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 1rem;
-    background-color: lightblue;
+    background-color: #64CCC5;
 }
 
 .formacion h2{
@@ -11,19 +11,19 @@
     margin-bottom: 1rem;
 }
 
-.formacion_item{
+.formacion__item{
     text-align: left;
 }
 
-.formacion_item p{
+.formacion__item p{
     margin: .5rem 0;
 }
 
-.formacion_titulo{
+.formacion__titulo{
     font-weight: bold;
 }
 
-.formacion_tarjeta{
+.formacion__tarjeta{
     background-color: white;
     width: 100%;
     height: 120px;
@@ -33,26 +33,26 @@
     justify-content: center;
 }
 
-.formacion_fes{
+.formacion__fes{
     width: 50px;
 }
 
-.formacion_contenedor{
+.formacion__contenedor{
     text-align: center;
 }
 
 @media screen and (min-width: 426px){
 
-    .formacion_item{
-        width: 300px;
+    .formacion__item{
+        width: 30%;
     }
 
-    .formacion_contenedor{
+    .formacion__contenedor{
         display: flex;
         justify-content: space-around;
     }
 
-    .formacion_tarjeta{
+    .formacion__tarjeta{
         width: 100%;
         margin: 10px auto;
     }

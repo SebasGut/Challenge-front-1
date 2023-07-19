@@ -7,26 +7,28 @@
     flex-direction: column;
     align-items: center;
 
+    background: #64CCC5;
+
 }
 
-.sobreMi_texto {
+.sobreMi__texto {
     text-align: justify;
 }
 
-.sobreMi_texto h1 {
+.sobreMi__texto h1 {
     text-align: center;
 }
 
-.sobreMi_texto h1, .sobreMi_texto p {
+.sobreMi__texto h1, .sobreMi__texto p {
     margin-bottom: 1rem;
 }
 
-.sobreMi_titulo {
+.sobreMi__titulo {
     font-size: 2rem;
     font-weight: bold;
 }
 
-.sobreMi_firma{
-    width: 150px;
+.sobreMi__firma{
+    width: 100px;
     height: auto;
 }

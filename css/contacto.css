@@ -1,48 +1,57 @@
 .contacto{
     width: 100%;
 
-    background-color: lightblue;
+    background-color: #64CCC5;
 
     box-sizing: border-box;
 
     padding: 1rem;
 }
 
-.contacto_titulo{
+.contacto__titulo{
     text-align: left;
     font-size: 1.3rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-.contacto_parrafo{
+.contacto__parrafo{
     text-align: justify;
     margin-bottom: 1rem;
 }
 
-.contacto_formulario input{
+.contacto__formulario input{
     width:100%;
     height: 30px;
     margin-bottom: 1rem;
     border-radius: 5px;
-    outline-color: rgb(58, 135, 250);
+    outline-color: #001C30;
     border: none;
 }
 
-.contacto_formulario textarea{
+.contacto__formulario textarea{
     width: 100%;
     resize: none;
     border-radius: 5px;
-    outline-color: rgb(58, 135, 250);
+    outline-color: #001C30;
     border: none;
 }
 
-.contacto_formulario button {
-    border: 1px solid rgb(52, 103, 255);
+.contacto__formulario button {
+    border: none;
     color: white;
-    background-color: rgb(52, 103, 255);
+    background-color: #176B87;
     padding: 7px;
     font-size: small;
     margin-top: 20px;
 }
 
+@media screen and (min-width: 769px){
+    .contacto{
+        display: flex;
+        justify-content: center;
+    }
+    .contacto__interior{
+        width: 60%;
+    }
+}

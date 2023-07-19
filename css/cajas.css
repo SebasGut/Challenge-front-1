@@ -8,13 +8,13 @@
     padding: 2%;
 }
 
-.cajas .cajas_titulo {
+.cajas .cajas__titulo {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
 }
 
-.cajas_contenedor {
+.cajas__contenedor {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -23,7 +23,7 @@
     justify-content: space-between;
 }
 
-.cajas_item {
+.cajas__item {
     margin: 10px .5rem;
     width: 39%;
     padding-top: 20%;
@@ -40,40 +40,61 @@
     box-shadow: 10px 10px 22px -8px rgba(0, 0, 0, 0.68);
 }
 
-.cajas_item img {
+.cajas__item img {
     width: 30px;
     height: auto;
     padding-bottom: 1rem;
 }
 
-.cajas_item .videojuegos {
+.cajas__item .videojuegos {
     width: 50px;
     height: auto;
 }
 
-.cajas_item .libros {
+.cajas__item .libros {
     width: 45px;
     height: auto;
 }
 
-.cajas_item .f1 {
+.cajas__item .f1 {
     width: 60px;
     height: auto;
 }
 
-.cajas_item .mesa {
+.cajas__item .mesa {
     width: 30px;
     height: auto;
 }
 
-.cajas_item .computadora {
+.cajas__item .computadora {
     width: 40px;
     height: auto;
 }
 
 @media screen and (min-width:426px) {
 
-    .cajas_item{
-        margin: 10px 2rem;
+    .cajas__contenedor{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .cajas__item{
+        margin: 5px;
+        width: 150px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .cajas__contenedor{
+        flex-direction: row;
+        width: auto;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .cajas__item{
+        padding-top: 30px;
     }
 }

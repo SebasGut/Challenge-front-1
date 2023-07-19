@@ -13,40 +13,55 @@
     font-weight: bold;
 }
 
-.experiencia_contenedor {
+.experiencia__contenedor-items {
     margin-bottom: 1rem;
 }
 
-.experiencia_contenedor p {
+.experiencia__contenedor-items p {
     margin-bottom: 1rem;
 }
 
-.imagen_experiencia {
+.imagen__experiencia {
     width: 100%;
     margin-bottom: 1rem;
-    border: 1px lightblue solid;
+    border: 1px #001C30 solid;
 }
 
-.experiencia_botones{
+.experiencia__botones {
     margin-bottom: 50px;
 }
 
-.experiencia_boton-vacio {
-    border:1px solid rgb(52, 103, 255);
-    color: rgb(52, 103, 255);
+.experiencia__boton-vacio {
+    border: 1px solid #176B87;
+    color: #176B87;
     background-color: transparent;
     padding: 7px;
     font-size: small;
 }
 
-.experiencia_boton-vacio:hover{
+.experiencia__boton-vacio:hover {
     background-color: blueviolet;
 }
 
-.experiencia_boton-lleno {
-    border: 1px solid rgb(52, 103, 255);
-    color: white;
-    background-color: rgb(52, 103, 255);
+.experiencia__boton-lleno {
+    border: 1px solid #176B87;
+    color: #DAFFFB;
+    background-color: #176B87;
     padding: 7px;
     font-size: small;
+}
+
+@media screen and (min-width: 769px) {
+    .imagen__experiencia {
+        width: 80%;
+    }
+
+    .experiencia__contenedor {
+        display: flex;
+    }
+
+    .experiencia__contenedor-items{
+        text-align: center;
+    }
+
 }
