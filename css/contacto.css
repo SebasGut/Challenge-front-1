@@ -1,0 +1,48 @@
+.contacto{
+    width: 100%;
+
+    background-color: lightblue;
+
+    box-sizing: border-box;
+
+    padding: 1rem;
+}
+
+.contacto_titulo{
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contacto_parrafo{
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.contacto_formulario input{
+    width:100%;
+    height: 30px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    outline-color: rgb(58, 135, 250);
+    border: none;
+}
+
+.contacto_formulario textarea{
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    outline-color: rgb(58, 135, 250);
+    border: none;
+}
+
+.contacto_formulario button {
+    border: 1px solid rgb(52, 103, 255);
+    color: white;
+    background-color: rgb(52, 103, 255);
+    padding: 7px;
+    font-size: small;
+    margin-top: 20px;
+}
+

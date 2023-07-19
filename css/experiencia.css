@@ -1,0 +1,52 @@
+.experiencia {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 1rem;
+}
+
+.experiencia h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.experiencia_contenedor {
+    margin-bottom: 1rem;
+}
+
+.experiencia_contenedor p {
+    margin-bottom: 1rem;
+}
+
+.imagen_experiencia {
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px lightblue solid;
+}
+
+.experiencia_botones{
+    margin-bottom: 50px;
+}
+
+.experiencia_boton-vacio {
+    border:1px solid rgb(52, 103, 255);
+    color: rgb(52, 103, 255);
+    background-color: transparent;
+    padding: 7px;
+    font-size: small;
+}
+
+.experiencia_boton-vacio:hover{
+    background-color: blueviolet;
+}
+
+.experiencia_boton-lleno {
+    border: 1px solid rgb(52, 103, 255);
+    color: white;
+    background-color: rgb(52, 103, 255);
+    padding: 7px;
+    font-size: small;
+}
