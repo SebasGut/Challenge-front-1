@@ -1,5 +1,6 @@
-.contacto{
+.contacto {
     width: 100%;
+    height: fit-content;
 
     background-color: #64CCC5;
 
@@ -8,20 +9,20 @@
     padding: 1rem;
 }
 
-.contacto__titulo{
-    text-align: left;
+.contacto__titulo {
+    text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-.contacto__parrafo{
+.contacto__parrafo {
     text-align: justify;
     margin-bottom: 1rem;
 }
 
-.contacto__formulario input{
-    width:100%;
+.contacto__formulario input {
+    width: 100%;
     height: 30px;
     margin-bottom: 1rem;
     border-radius: 5px;
@@ -29,7 +30,7 @@
     border: none;
 }
 
-.contacto__formulario textarea{
+.contacto__formulario textarea {
     width: 100%;
     resize: none;
     border-radius: 5px;
@@ -46,12 +47,25 @@
     margin-top: 20px;
 }
 
-@media screen and (min-width: 769px){
-    .contacto{
+.contacto__formulario-google {
+    width: 100%;
+    height: 1300px;
+}
+
+@media screen and (min-width: 426px) {
+    .contacto__formulario-google {
+        width: 100%;
+        height: 1150px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .contacto {
         display: flex;
         justify-content: center;
     }
-    .contacto__interior{
+
+    .contacto__interior {
         width: 60%;
     }
 }
