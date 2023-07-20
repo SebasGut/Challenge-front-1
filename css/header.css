@@ -9,7 +9,7 @@
     align-items: center;
 
     border-bottom: 1px solid black;
-    background: #64CCC5;
+    background: #acf0e2;
 
 
 }
@@ -39,7 +39,7 @@
 }
 
 .header__enlace {
-    width: 100%;
+    width: auto;
     font-size: 1.1rem;
 
     display: inline-block;
@@ -48,11 +48,7 @@
     margin-bottom: .7rem;
     margin-left: .7rem;
 
-    border: 1px solid #001C30;
-    border-radius: 5px;
-    padding: .5rem;
-    box-shadow: 0px 10px 21px -11px rgba(0,0,0,0.75);
-    background: #DAFFFB;
+   
 }
 
 @media screen and (min-width: 426px){
@@ -90,7 +86,8 @@
 
 @media screen and (min-width: 769px){
     .header__enlace{
-        width: 50px;
-        padding: .6rem;
+        width: 80px;
+        padding: .4rem;
+        font-size: 1rem;
     }
 }
