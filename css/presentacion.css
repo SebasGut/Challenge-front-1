@@ -8,7 +8,7 @@
 }
 
 .presentacion__inicial p {
-    text-align: left;
+    text-align: center;
 }
 
 .presentacion__inicial {
@@ -35,7 +35,7 @@
 }
 
 .presentacion__enlace-box {
-    margin-bottom: 1rem;       
+    margin-bottom: 1rem;
 }
 
 .presentacion__imagen {
@@ -63,6 +63,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .presentacion__inicial p {
+        text-align: left;
     }
 
     .presentacion__imagen {
