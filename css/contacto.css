@@ -2,11 +2,12 @@
     width: 100%;
     height: fit-content;
 
-    background-color: #c0efea;
+    background-color: #8ab3cf;
 
     box-sizing: border-box;
 
     padding: 1rem;
+    font-family: var(--montserrat);
 }
 
 .contacto__titulo {

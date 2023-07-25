@@ -1,11 +1,12 @@
 .cajas {
     box-sizing: border-box;
 
-    background-color: #d9ffff;
+    background-color: #e4ebf0;
 
     width: 100%;
 
     padding: 2%;
+    font-family: var(--montserrat);
 }
 
 .cajas .cajas__titulo {
@@ -16,12 +17,13 @@
 }
 
 .cajas__contenedor {
-    width: 100%;
+    width: fit-content;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #d9ffff;
+    background-color: #ebb667;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 .cajas__item {
@@ -77,7 +79,8 @@
     .cajas__contenedor{
         flex-direction: row;
         justify-content: space-between;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        padding: 1rem;
     }
 
     .cajas__item{

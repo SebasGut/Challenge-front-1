@@ -7,5 +7,9 @@ footer{
 
     text-align: center;
 
-    background: #75c0a9;
+    background: #4180ab;
+    font-family: var(--montserrat);
+    font-weight: bold;
+
+    color: #fdd86e;
 }

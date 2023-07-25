@@ -7,7 +7,8 @@
     flex-direction: column;
     align-items: center;
 
-    background: #c0efea;
+    background: #bdd1de;
+    font-family: var(--montserrat);
 
 }
 
