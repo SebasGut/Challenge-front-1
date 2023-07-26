@@ -42,7 +42,13 @@
 }
 
 .experiencia__boton-vacio:hover {
-    background-color: blueviolet;
+    background-color: #4180ab;
+    color: #DAFFFB;
+}
+
+.experiencia__boton-lleno:hover {
+    background-color: #4180ab;
+    color: #DAFFFB;
 }
 
 .experiencia__boton-lleno {
@@ -62,7 +68,7 @@
         display: flex;
     }
 
-    .experiencia__contenedor-items{
+    .experiencia__contenedor-items {
         text-align: center;
     }
 
