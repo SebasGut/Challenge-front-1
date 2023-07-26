@@ -46,7 +46,7 @@
     .presentacion__contenedor-targeta {
         flex-direction: row;
         justify-content: space-around;
-        background: #ebb667;
+        background: #ffffff;
         border-radius: 10px;
         padding: 1rem;
     }
