@@ -172,9 +172,9 @@
         <section class="contacto container" id="contactoS">
             <div class="contacto__interior">
                 <h2 class="contacto__titulo">Contacto</h2>
-                <!--<p class="contacto__parrafo">Si te interesa contactarme por favor no dudes en dejar tu informacion para
+                <p class="contacto__parrafo">Si te interesa contactarme por favor no dudes en dejar tu informacion para
                     ponernos en contacto.</p>
-                <form class="contacto__formulario">
+                <form class="contacto__formulario" id="contacto__formulario">
                     <label for="nombre">Nombre</label>
                     <input type="text" name="nombre" id="nombre" autocomplete="given-name">
                     <label for="email">E-mail</label>
@@ -183,17 +183,16 @@
                     <input type="text" name="asunto" id="asunto">
                     <label for="mensaje">Mensaje</label>
                     <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                    <button type="submit">Enviar mensaje</button>
-                </form>-->
-                <iframe class="contacto__formulario-google"
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSdrFQHvvU5e4hQEk74YFT5BO7ipGVcFAsel7sbUcW_AD6nnVA/viewform?embedded=true"
-                    frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                    <button type="button" id="contacto_boton">Enviar mensaje</button>
+                </form>
             </div>
         </section>
     </main>
     <footer>
         <p class="final__parrafo">Desarrollando por Sebastian Gutiérrez García 2023</p>
     </footer>
+
+    <script type="module" src="app.js"></script>
 </body>
 
 </html>

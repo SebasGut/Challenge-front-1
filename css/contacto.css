@@ -39,13 +39,18 @@
     border: none;
 }
 
+.contacto__formulario button:hover {
+    background-color: #4180ab;
+    color: #DAFFFB;
+}
+
 .contacto__formulario button {
-    border: none;
-    color: white;
+    margin-top: .8rem;
+    border: 1px solid #176B87;
+    color: #DAFFFB;
     background-color: #176B87;
     padding: 7px;
     font-size: small;
-    margin-top: 20px;
 }
 
 .contacto__formulario-google {
